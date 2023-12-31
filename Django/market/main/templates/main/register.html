@@ -1,0 +1,41 @@
+{% extends 'main/base.html' %}'
+{% block title %}
+    Register
+{% endblock %}
+
+{% block content %}
+<body class="text-center">
+    <form class="form-signin" method="POST">
+        {% csrf_token %}
+        <img class="mb-4" src="data:image/jpeg;base64,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" alt="">
+        <h1 class="h3 mb-3 font-weight-normal">
+            Please Create your Account
+        </h1>
+
+        <!-- Form Fields -->
+        <label for="inputUsername" class="sr-only">
+            User Name
+        </label>
+        <input type="text" id="inputUsername" class="form-control" placeholder="User Name" name="username" required autofocus>
+        <br>
+
+        <label for="inputPassword1" class="sr-only">
+            Password
+        </label>
+        <input type="password" id="inputPassword1" class="form-control" placeholder="Password" name="password1" required autofocus>
+        <br>
+
+        <label for="inputPassword2" class="sr-only">
+            Password Confirmation
+        </label>
+        <input type="password" id="inputPassword2" class="form-control" placeholder="Confirm Password" name="password2" required autofocus>
+        <br>
+
+        <div class="checkbox mb-3">
+            <h6>Already have an Account?</h6>
+            <a class="btn btn-sm btn-secondary" href="{% url 'login' %}">Login</a>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Create Account</button>
+    </form>
+</body>
+{% endblock %}
