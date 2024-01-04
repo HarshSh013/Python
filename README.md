@@ -13,11 +13,12 @@ Explore this folder for projects related to the Django web framework. Whether yo
 ### 3. Flask
 Discover projects and examples using the Flask web framework. This section covers a variety of Flask applications and serves as a resource for Flask developers.
 
-### 4. Intermediate
-The Intermediate folder houses Python programs that are at an intermediate level of complexity. These programs cover a range of topics and are designed to enhance your Python skills.
-
-### 5. Intermediate+
+### 4. Intermediate+
 In this folder, you'll find advanced Python programs, including examples using SMTP API, stock API, and more. These projects are suitable for users looking to challenge themselves with complex Python coding.
+Intermediate
+
+### 5. Intermediate
+The Intermediate folder houses Python programs that are at an intermediate level of complexity. These programs cover a range of topics and are designed to enhance your Python skills.
 
 ### 6. Personal Projects
 Explore various personal Python projects, each with its unique focus and purpose. The projects in this folder include:
